@@ -1,0 +1,15 @@
+Write out the README.txt file
+
+-Outline boiler plate code for the .js file and the stlye.css file
+
+-Write back to handle the fetching of data frome Aoe2.net
+    -connect the thte API from the website to the data source 
+    
+-Utilize a data visualization application like MS Power BI / Tableau
+    -implement some sort of data analytics in the backend
+
+
+
+-Decide on what language to write the back end in
+
+-start designing the website layout 
