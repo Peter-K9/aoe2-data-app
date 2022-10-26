@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Favorite Foods{% endblock %}
+
+
+
+{% block body %}
+    <h1>Favorite Troops</h1>
+    <p>Some of my favorite troops are </p>
+    <ul>
+        {% for troop in troopList %}
+            <li>{{troop | capitalize}}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
