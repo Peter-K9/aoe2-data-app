@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+    <!--The base page is the main template that all the other pages are based off of-->
+  <title>{% block title %}{% endblock %}</title>
+  
+
+</head>
+
+<body>
+  
+  
+  {% block body %}
+  
+  {% endblock %}
+<hr>
+  <ul>
+    <li>
+        <a href="{{ url_for('index') }}">Index</a>
+    </li>
+    <li>
+        <a href="{{ url_for('hobby1') }}">Hobby 1</a>
+    </li>
+    <li>
+        <a href="{{ url_for('hobby2') }}">Hobby 2</a>
+    </li>
+    <li>
+        <a href="{{ url_for('hobby3') }}">Hobby 3</a>
+    </li>
+    <li>
+        <a href="{{ url_for('troop') }}">Favorite Troops</a>
+    </li>
+</ul>
+</body>
+</html>
