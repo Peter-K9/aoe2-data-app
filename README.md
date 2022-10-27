@@ -3,12 +3,15 @@ Application to run analytics about MS Age of Empires 2 game data
 
 Clone repo to perferred location
 
-in cloned repo run.  
-  pyhton -m vnev venv   (This creates a virtual python env)  
-  
-  venv\Scripts\activate.bat (this starts the env)  
+In cloned repo run.  
+  # This creates a virtual python env
+  pyhton -m venv .venv   
+
+ # This starts the env
+ venv\Scripts\activate.bat 
  
- pip install flask   (only do this the first time you create the env)  
+ # only nessecary to do this the first time you create the env
+ pip install flask     
  
  code ./   (opens the current directory in code)  
 
