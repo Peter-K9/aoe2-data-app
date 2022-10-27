@@ -5,7 +5,7 @@ Clone repo to perferred location
 
 In cloned repo run.  
   # This creates a virtual python env
-  pyhton -m venv .venv   
+  python -m venv .venv   
 
  # This starts the env
  venv\Scripts\activate.bat 
