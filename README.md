@@ -9,6 +9,7 @@ In cloned repo run.
 
  # This starts the env
  venv\Scripts\activate.bat 
+ You can also just click run on the activate.bat file in vs code
  
  # only nessecary to do this the first time you create the env
  pip install flask     
