@@ -6,23 +6,23 @@ app = Flask(__name__)
 troops = ["Pikeman", "Horse archer", "Crossbowman", "Militia"]
 
 
-@app.route("/app/views/templates/")
+@app.route("/")
 def index():
     return render_template("index.html")
 
-@app.route("/app/views/templates/hobby1")
+@app.route("/hobby1")
 def hobby1():
     return render_template("hobby1.html")
 
-@app.route("/app/views/templates/hobby2")
+@app.route("/hobby2")
 def hobby2():
     return render_template("hobby2.html")
 
-@app.route("/app/views/templates/hobby3")
+@app.route("/hobby3")
 def hobby3():
     return render_template("hobby3.html")
 
-@app.route("/app/views/templates/troop")
+@app.route("/troop")
 def troop():
     return render_template("troop.html", troopList = troops)
 
